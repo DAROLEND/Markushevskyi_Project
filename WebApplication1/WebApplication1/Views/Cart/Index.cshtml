@@ -1,0 +1,43 @@
+﻿@model List<JewelryStore.Models.CartItem>
+
+<h2>Корзина</h2>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-info">@TempData["Message"]</div>
+}
+
+@if (!Model.Any())
+{
+    <p>Корзина порожня.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Назва</th>
+                <th>Ціна</th>
+                <th>Кількість</th>
+                <th>Сума</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Jewelry.Name</td>
+                    <td>@item.Jewelry.Price грн</td>
+                    <td>@item.Quantity</td>
+                    <td>@(item.Jewelry.Price * item.Quantity) грн</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <p>
+        <strong>Всього: @Model.Sum(x => x.Jewelry.Price * x.Quantity) грн</strong>
+    </p>
+
+    <a href="@Url.Action("Checkout", "Cart")" class="btn btn-success">Оформити замовлення</a>
+}
