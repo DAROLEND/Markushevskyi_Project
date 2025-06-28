@@ -99,5 +99,5 @@ E:\Слабіцький\3 курс\Навчальна Практика\Марк�
 E:\Слабіцький\3 курс\Навчальна Практика\Маркушевський\Project\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
 E:\Слабіцький\3 курс\Навчальна Практика\Маркушевський\Project\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
 E:\Слабіцький\3 курс\Навчальна Практика\Маркушевський\Project\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
-E:\Слабіцький\3 курс\Навчальна Практика\Маркушевський\Project\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.Init.resources
+E:\Слабіцький\3 курс\Навчальна Практика\Маркушевський\Project\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.UpdateJewelrySeedData.resources
 E:\Слабіцький\3 курс\Навчальна Практика\Маркушевський\Project\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.GenerateResource.cache

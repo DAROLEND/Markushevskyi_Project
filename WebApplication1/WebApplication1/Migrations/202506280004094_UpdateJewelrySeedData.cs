@@ -3,7 +3,7 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class Init : DbMigration
+    public partial class UpdateJewelrySeedData : DbMigration
     {
         public override void Up()
         {
